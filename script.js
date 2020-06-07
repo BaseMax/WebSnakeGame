@@ -49,7 +49,7 @@ var game= {
     this.content.textBaseline = 'middle'; 
     this.content.textAlign = 'center'; 
     this.content.font = 'normal bold 36px serif';
-    this.content.fillText('Game over', GAME_WIDTH/2-15, GAME_HEIGHT/2-30);
+    this.content.fillText('Game over, Score: '+ this.movements, GAME_WIDTH/2-15, GAME_HEIGHT/2-30);
     this.content.font = 'normal bold 20px serif';
     this.content.fillText('© Max Base', GAME_WIDTH/2-15, GAME_HEIGHT/2+10);
   },
@@ -58,6 +58,7 @@ var game= {
     y: [],
   },
   dots: 0,
+  movements: 0,
   places: [],
   create: function() {
     this.dots=4;
@@ -93,6 +94,7 @@ var game= {
     this.places.push({x:this.position.x[z], y:this.position.y[z]});
   },
   move: function() {
+		this.movements++;
     for(var z = this.dots; z > 0; z--) {
       this.position.x[z] = this.position.x[(z - 1)];
       this.position.y[z] = this.position.y[(z - 1)];
