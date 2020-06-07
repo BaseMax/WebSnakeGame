@@ -2,6 +2,8 @@
 
 Snake game with HTML, CSS, JavaScript. (Web-based)
 
+![Web Snake Game](demo.jpg)
+
 ---------
 
 # Max Base
