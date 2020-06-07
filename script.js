@@ -8,7 +8,7 @@ const STATUS_ALIVE=1;
 const STATUS_OVER=0;
 // const DELAY=100;
 const GAME_WIDTH = 500;
-const GAME_HEIGHT = 500;
+const GAME_HEIGHT = 400;
 var game= {
   delay: 400,
   canvas: undefined,
