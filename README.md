@@ -6,6 +6,10 @@ Snake game with HTML, CSS, JavaScript. (Web-based)
 
 Demo game: https://basemax.github.io/WebSnakeGame/
 
+## TODO
+
+Not works in mobile devices, because no arrow key and keyboard in phone!
+
 ---------
 
 # Max Base
