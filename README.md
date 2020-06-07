@@ -2,7 +2,7 @@
 
 Snake game with HTML, CSS, JavaScript. (Web-based)
 
-![Web Snake Game](demo.jpg)
+[![Web Snake Game](demo.jpg)](https://basemax.github.io/WebSnakeGame/)
 
 Demo game: https://basemax.github.io/WebSnakeGame/
 
