@@ -10,6 +10,8 @@ Demo game: https://basemax.github.io/WebSnakeGame/
 
 Not works in mobile devices, because no arrow key and keyboard in phone!
 
+If you want to contribute to project. I really accept commit and PR for this feature.
+
 ---------
 
 # Max Base
